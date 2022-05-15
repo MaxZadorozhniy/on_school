@@ -17,6 +17,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+gem 'breadcrumbs_on_rails'
 gem 'bootstrap-sass'
 gem 'bootstrap-select-rails'
 

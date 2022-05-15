@@ -7,6 +7,7 @@ class Admin::BaseController < ApplicationController
   private
 
   def set_main_menu
-    @main_menu = { teachers: { name: 'Teachers', path: admin_teachers_path } }
+    @main_menu = { teachers: { name: 'Teachers', path: admin_teachers_path },
+                   disciplines: { name: 'Disciplines', path: admin_disciplines_path } }
   end
 end
